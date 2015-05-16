@@ -48,9 +48,10 @@ p{
 }
 
 .meet-insiders {
-	background-image: url("../Images/parisbkg.jpg");
+	background-image: url("../Images/insiderbkg.jpg");
 	background-attachment: fixed;
 	padding-bottom: 15px;
+	background-repeat: no-repeat;
 
 }
 
