@@ -12,7 +12,8 @@ h1{
     }
     
 
-background-image{
-	url("SliceandDice/headerimage.jpg");
+.background-image {
+	background-image: url("SliceandDice/headerimage.jpg");
+	min-height: 300px;
 	}
 
