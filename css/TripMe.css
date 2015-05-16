@@ -1,4 +1,6 @@
 body {
+background-image: url("SliceandDice/headerimage.jpg");
+
 
 }
 h1{
@@ -11,6 +13,3 @@ h1{
     background:none;
     }
     
-background-image{
-	url("SliceandDice/headerimage.jpg");
-}
