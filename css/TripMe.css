@@ -3,13 +3,13 @@ body {
 }
 h1{
 
-	color: #bce6ec;
+	color: #36b4c7;
 	text-align: center;
 	font-weight: 600;
 	font-size: 30px;
 }
 h2{
-	color: #bce6ec;
+	color: #36b4c7;
 	text-align: center;
 	font-size: 18px;
 }
@@ -39,10 +39,30 @@ p{
 	background-image: url("../Images/headerimage.jpg");
 	min-height: 500px;
 	background-attachment: fixed;
+
 	}
 
 .login {
 	margin-top: 80px;
-	background-color: rgb(255,255,255, .8);
+	background-color: rgba(255,255,255,0.5);
 }
 
+.meet-insiders {
+	background-image: url("../Images/paris.jpg");
+	background-attachment: fixed;
+	padding-bottom: 15px;
+
+}
+
+.meet-insiders h1 {
+	color: white;
+	 text-shadow: 1px 1px 1px #000;
+}
+
+.meet-insider-info h1 {
+	font-size: 1.3em;
+	color: #36b4c7;
+}
+.meet-insider-info {
+	background-color: rgba(255,255,255,0.7);
+}
