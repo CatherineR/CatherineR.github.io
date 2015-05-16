@@ -11,6 +11,8 @@ h1{
     background:none;
     }
     
-div{
-	background-image: url("SliceandDice/headerimage.jpg");
-}
+
+background-image{
+	url("SliceandDice/headerimage.jpg");
+	}
+
