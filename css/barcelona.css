@@ -1,0 +1,14 @@
+.barcelona-background{
+	background-image:  url("../Images/barcelona.png");
+	height: 650px;
+	background-position-y: -200px;
+ 	background-size: cover;
+}
+.barcInsider{
+	margin-top: 30px;
+	
+}
+.messageInsider{
+	background-color: rgba(54,180,199,0.7);
+}
+
