@@ -32,6 +32,8 @@
   background-size: cover;
 }
 .destination h1{
-	color: white;
+	margin-top:120px;
+	text-shadow: 1px 1px 1px #000;
+	background-color: rgba(255,255,255,0.7);
 	
 }
