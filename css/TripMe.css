@@ -6,3 +6,8 @@ h1{
 	color: #bce6ec;
 	text-align: center;
 }
+
+.navbar-default {
+    background:none;
+    }
+    
