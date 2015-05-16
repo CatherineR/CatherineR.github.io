@@ -26,6 +26,7 @@ p{
     }
     .navbar-default .navbar-nav > li > a {
      color: white; 
+     font-size:20px;
      
     }
 
@@ -34,7 +35,6 @@ p{
     color: #bce6ec;
 }
     
-
 .background-image {
 	background-image: url("../Images/headerimage.jpg");
 	min-height: 500px;
