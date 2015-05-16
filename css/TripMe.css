@@ -22,8 +22,17 @@ p{
 }
 .navbar-default {
     background:none;
+    
+    }
+    .navbar-default .navbar-nav > li > a {
+     color: white; 
+     
     }
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: none;
+    color: #bce6ec;
+}
     
 
 .background-image {
