@@ -1,19 +1,35 @@
 body {
-
+	font-family: 'Open Sans', sans-serif;	
 }
 h1{
-	font-family: 'Open Sans', sans-serif;
+
 	color: #bce6ec;
 	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
 }
-
+h2{
+	color: #bce6ec;
+	text-align: center;
+	font-size: 18px;
+}
+p{
+	text-align: center;
+	font-size: 18px;
+}
+.how{
+	text-align: center;	
+}
 .navbar-default {
     background:none;
     }
+<<<<<<< Updated upstream
     
 
 .background-image {
 	background-image: url("SliceandDice/headerimage.jpg");
 	min-height: 300px;
 	}
+=======
+>>>>>>> Stashed changes
 
