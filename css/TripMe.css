@@ -24,6 +24,14 @@ p{
 	font-weight: 600;
 	font-size: 22px;
 }
+.meet-insider-info img {
+	width: 85%;
+	height: auto;
+}
+
+.meet-insider-info ul {
+	list-style: none;
+}
 
 .btn-profile {
 	font-family: 'Open Sans', sans-serif;	
@@ -179,4 +187,26 @@ background: none;
 
 .footer-nav ul li a:hover {
 	color: #58595b;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media only screen and (max-width: 767px) {
+
+.meet-insider-info img {
+  width: 45%;
+  height: auto;
+  text-align: center;
+}
+
+
+.meet-insider-info {
+  padding: 15px;
+  margin: 10px;
+}
+
+.profile {
+	text-align: center;
+}
+
+
 }
