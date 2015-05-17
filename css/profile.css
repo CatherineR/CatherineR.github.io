@@ -5,6 +5,17 @@
 	background-color: #364757;		
 }
 
+    .navbar-default .navbar-nav > li > a {
+     color: white; 
+     font-size:20px;
+     
+    }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: none;
+    color: #bce6ec;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;	
 }
