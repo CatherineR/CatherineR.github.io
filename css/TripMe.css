@@ -17,6 +17,40 @@ p{
 	text-align: center;
 	font-size: 18px;
 }
+
+.login h1 {
+	color: #36b4c7;
+	text-align: left;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.btn-profile {
+	font-family: 'Open Sans', sans-serif;	
+  color: #ffffff;
+  font-size: 12px;
+  background: #36b4c7;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+.btn-profile:hover {
+  background: #364757;
+  text-decoration: none;
+  color: white;
+}
+
+
+button, input, select, textarea
+{
+	margin-left: 10px;
+}
+
+.login p {
+		text-align: left;
+	font-size: 12px;
+	margin-right: 5px;
+}
 .how{
 	text-align: center;	
 }
@@ -44,7 +78,8 @@ p{
 
 .login {
 	margin-top: 80px;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.8);
+		min-height: 175px;
 }
 
 .meet-insiders {
