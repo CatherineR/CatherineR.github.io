@@ -5,35 +5,74 @@
 	background-color: #364757;		
 }
 
-.Prague{
-	background-image:  url("../Images/prague_bkg.jpg");
-	min-height: 300px;
-	margin-bottom: 15px;
-}
-.Barcelona{
-	background-image:  url("../Images/barcelona_bkg.jpg");
-	min-height: 300px;
-	margin-bottom: 15px;
+body {
+	font-family: 'Open Sans', sans-serif;	
 }
 
-.Rome{
-	background-image:  url("../Images/rome_bkg.jpg");
-	min-height: 300px;
-	margin-bottom: 15px;
+.btn-profile {
+	font-family: 'Open Sans', sans-serif;	
+  color: #ffffff;
+  font-size: 12px;
+  background: #36b4c7;
+  padding: 4px 8px;
+  text-decoration: none;
 }
 
-
-.Paris {
-	background-image:  url("../Images/paris_bkg_btn.jpg");
-	min-height: 300px;
-	margin-bottom: 15px;
+.btn-profile:hover {
+  background: #364757;
+  text-decoration: none;
+  color: white;
 }
+
+.btn-connect {
+	font-family: 'Open Sans', sans-serif;	
+  color: #ffffff;
+  font-size: 12px;
+
+    background: #364757;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+.btn-connect:hover {
+  background: #36b4c7;
+  text-decoration: none;
+  color: white;
+}
+
+.profileblg {
+	background-color: #ebebeb;
+	padding: 30px;
+}
+h1{
+	color: #36b4c7;
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+}
+h2{
+	color: #36b4c7;
+	font-size: 25px;
+}
+
+h3{
+	text-align: left;
+	font-size: 18px;
+}
+p{
+	font-size: 18px;
+}
+
 
 .destination h1{
 	margin-top:120px;
 	text-shadow: 1px 1px 1px #000;
 	background-color: rgba(255,255,255,0.7);
 	font-size: 3em;
+}
+
+.content {
+	margin-top: 15px;
 }
 
 /*-----------Footer--------------*/
