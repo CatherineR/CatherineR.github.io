@@ -40,56 +40,93 @@
   <p>Find an Insider</p>      
   
 </div>
-<div class="barcelona-background">
-	<div class="col-md-12 barcInsider">
+<div class="filterBar">
+	  <label>Filter by Interests:</label>
+  
+  <button class="filter" data-filter="all">All</button>
+  <button class="filter" data-filter=".sightseeing">Sightseeing</button>
+  <button class="filter" data-filter=".food">Food</button>
+  <button class="filter" data-filter=".art">Art</button>
+  <button class="filter" data-filter=".hiking">Hiking</button>
+  <button class="filter" data-filter=".roadTrips">Road Trips</button>
+  <button class="filter" data-filter=".music">Music</button>
+  <button class="filter" data-filter=".photography">Photography</button>
+
+<div id="Container" class="barcelona-background">
+	<div class="col-md-12 barcInsider mix sightseeing food art">
 			<div class="col-md-2 col-md-offset-1">
 				<img src="Images/woman3.png" />
 			</div>
 			<div class="col-md-5  meet-insider-info">
-				<h2>Name of Insider</h2>
-				<p>Listing of info</p>
-				<ul>
-					<li>Hiking</li>
-					<li>Water Colors</li>
-					<li>Cooking</li>
-				</ul>
+				<h2>Ashley Bird</h2>
+				<p><b>School:</b> University of Barcelona</p>
+				<p><b>Hometown:</b> Minneapolis, U.S.A.</p>
+				<p><b>Interests:</b> Sightseeing, Food, Art</p>
+				<p><b>Rating:</b> University of Barcelona</p>
 			</div>
-			<button class="col-md-2 col-md-offset-1">Message</button>
+			<a href="#"><button class="btn col-md-2 messageInsider">Message</button></a>
 		</div>
-			<div class="col-md-12 barcInsider">
+			<div class="col-md-12 barcInsider mix hiking roadTrips music">
 			<div class="col-md-2 col-md-offset-1">
 				<img src="Images/man2.png" />
 			</div>
 			<div class="col-md-5  meet-insider-info">
-				<h2>Name of Insider</h2>
-				<p>Listing of info</p>
-				<ul>
-					<li>Hiking</li>
-					<li>Water Colors</li>
-					<li>Cooking</li>
-				</ul>
+				<h2>Liana Karimova</h2>
+				<p><b>School:</b>Barcelona Business School</p>
+				<p><b>Hometown:</b>Seattle, U.S.A.</p>
+				<p><b>Interests:</b>Hiking, Road Trips, Music</p>
+				<p><b>Rating:</b> University of Barcelona</p>
 			</div>
-			<button class="btn col-md-2 col-md-offset-1">Message</button>
+			<a href="Profile.html"><button class="btn col-md-2 messageInsider">Message</button></a>
 		</div>
-					<div class="col-md-12 barcInsider">
+		<div class="col-md-12 barcInsider mix music sightseeing hiking">
 			<div class="col-md-2 col-md-offset-1">
 				<img src="Images/woman1.png" />
 			</div>
 			<div class="col-md-5  meet-insider-info">
-				<h2>Name of Insider</h2>
-				<p>Listing of info</p>
-				<ul>
-					<li>Hiking</li>
-					<li>Water Colors</li>
-					<li>Cooking</li>
-				</ul>
+				<h2>Andrew Jonson</h2>
+				<p><b>School:</b>University of La Laguna</p>
+				<p><b>Hometown:</b>San Francisco, U.S.A.</p>
+				<p><b>Interests:</b>Music, Sightseeing, Hiking</p>
+				<p><b>Rating:</b> University of Barcelona</p>
 			</div>
-			<div class="col-md-2 messageInsider">Message</div>
+			<a href="#"><button class="btn col-md-2 messageInsider">Message</button></a>
+		</div>
+		<div class="col-md-12 barcInsider mix hiking photography food">
+			<div class="col-md-2 col-md-offset-1">
+				<img src="Images/man2.png" />
+			</div>
+			<div class="col-md-5  meet-insider-info">
+				<h2>Anna Stark</h2>
+				<p><b>School:</b>Pompeu Fabra University</p>
+				<p><b>Hometown:</b>Duluth, U.S.A.</p>
+				<p><b>Interests:</b>Hiking, Photography, Food</p>
+				<p><b>Rating:</b> University of Barcelona</p>
+			</div>
+			<a href="Profile.html"><button class="btn col-md-2 messageInsider">Message</button></a>
+		</div>
+		<div class="col-md-12 barcInsider mix photography roadTrips hiking">
+			<div class="col-md-2 col-md-offset-1">
+				<img src="Images/woman2.png" />
+			</div>
+			<div class="col-md-5  meet-insider-info">
+				<h2>Andrew Jonson</h2>
+				<p><b>School:</b>Imperial College Barcelona</p>
+				<p><b>Hometown:</b>Seattle, U.S.A.</p>
+				<p><b>Interests:</b>Hiking, Road Trips, Photography</p>
+				<p><b>Rating:</b> University of Barcelona</p>
+			</div>
+			<a href="#"><button class="btn col-md-2 messageInsider">Message</button></a>
 		</div>
 		
 		
 	</div>
-
+	            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/filter.js"></script>
 	</body>
 </html>
 

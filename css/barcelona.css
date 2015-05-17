@@ -13,5 +13,13 @@
 }
 .messageInsider{
 	background-color: rgba(54,180,199,0.7);
+	height: 154px;
+	color: black;
+}
+.barcelona-background .mix{
+  text-align: left;
+
+  margin-bottom: 2%;
+  display: none;
 }
 
