@@ -1,7 +1,10 @@
+
 .barcelona-background{
 	background-image:  url("../Images/barcelona.jpg");
+/*
 	height: 1300px;
 	background-position-y: -200px;
+*/
  	background-size: cover;
  	background-attachment:fixed;
 }
@@ -10,13 +13,16 @@
 }
 .filterBar{
 	background-color: lightgrey;
-	height: 45px;
 	
 }
 .barcInsider{
 	margin-top: 30px;
-	
 }
+
+.filter-btn {
+	text-align: center;
+}
+
 .insider {
 	margin-top: 32px;
 }
@@ -31,11 +37,12 @@
   margin-bottom: 2%;
   display: none;
 }
-.barcelona-background span{
-	display: inline-block;
+h3 {
 	margin-top: 88px;
-	margin-left: 68px;
 	font-weight:600;
+	color: white;
+	font-size: 30px;
+	text-align: center;
 	
 }
 .meet-insider-info img{
@@ -43,10 +50,12 @@
   margin-left: 10px;
   margin-bottom: 3px;
 }
+/*
 label{
 	margin-top: 12px;
 	margin-left: 250px;
 }
+*/
 .filterBar .btn.active{
 	  background: #36b4c7;
   color: white;
@@ -68,5 +77,56 @@ label{
 }
 .filterBar .btn:hover {
   color: #36b4c7;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/* Extra small devices (phones, less than 768px) */
+@media only screen and (max-width: 767px) {
+
+	.meet-insider-info {
+	padding: 15px;
+}
+
+.messageInsider {
+  height: 57px;
+  padding-top: 11px;
+  }
+  
+  h3 {
+  margin-top: 0;
+
+}
+
+.insider {
+  margin-top: 32px;
+  text-align: center;
+  padding-bottom: 12px;
+  margin-top: -14px;
+}
+
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.meet-insider-info {
+	padding: 15px;
+}
+
+}
+	
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/* Large devices (tablets, 991px and up) */
+@media (min-width: 991px) {
+
 }
 
