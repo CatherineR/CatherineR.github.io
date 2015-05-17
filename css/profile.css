@@ -9,6 +9,7 @@ body {
 	font-family: 'Open Sans', sans-serif;	
 }
 
+.blue {color: #36b4c7}
 .btn-profile {
 	font-family: 'Open Sans', sans-serif;	
   color: #ffffff;
@@ -44,6 +45,12 @@ body {
 	padding: 30px;
 	margin-bottom: 20px;
 }
+.profileblg2 {
+	background-color: #e0e0e0;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
 h1{
 	color: #36b4c7;
 	text-align: center;
