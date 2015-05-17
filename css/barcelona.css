@@ -47,4 +47,26 @@ label{
 	margin-top: 12px;
 	margin-left: 250px;
 }
+.filterBar .btn.active{
+	  background: #36b4c7;
+  color: white;
+  font-weight: 700;
+  border-top: 1px solid #03899c;
+  border-bottom: 0 none;
+}
+.filterBar .btn.active:hover {
+  color: white;
+}
+.filterBar .btn{
+	display: inline-block;
+  vertical-align: middle;
+  margin: 5px;
+  background: white;
+  color: #555555;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid #f2f2f2;
+}
+.filterBar .btn:hover {
+  color: #36b4c7;
+}
 
