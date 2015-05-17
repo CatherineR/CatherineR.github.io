@@ -27,10 +27,9 @@ body {
 .btn-connect {
 	font-family: 'Open Sans', sans-serif;	
   color: #ffffff;
-  font-size: 12px;
-
+  font-size: 25px;
     background: #364757;
-  padding: 4px 8px;
+  padding: 10px 50px;
   text-decoration: none;
 }
 
@@ -43,6 +42,7 @@ body {
 .profileblg {
 	background-color: #ebebeb;
 	padding: 30px;
+	margin-bottom: 20px;
 }
 h1{
 	color: #36b4c7;
@@ -72,7 +72,8 @@ p{
 }
 
 .content {
-	margin-top: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 /*-----------Footer--------------*/
