@@ -7,13 +7,17 @@
 .destinationsHeader{
 	background-color: #364757;		
 }
+.filterBar{
+	background-color: lightgrey;
+	
+}
 .barcInsider{
 	margin-top: 30px;
 	
 }
 .messageInsider{
 	background-color: rgba(54,180,199,0.7);
-	height: 154px;
+	height: 189px;
 	color: black;
 }
 .barcelona-background .mix{
@@ -21,5 +25,11 @@
 
   margin-bottom: 2%;
   display: none;
+}
+.barcelona-background span{
+	display: inline-block;
+	margin-top: 88px;
+	margin-left: 45px;
+	
 }
 
