@@ -60,6 +60,10 @@ p{
 	 text-shadow: 1px 1px 1px #000;
 }
 
+.meet-insiders p{
+	color:white;
+}
+
 .meet-insider-info h1 {
 	font-size: 1.3em;
 	color: #36b4c7;
