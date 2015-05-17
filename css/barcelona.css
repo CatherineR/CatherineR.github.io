@@ -1,23 +1,28 @@
 .barcelona-background{
-	background-image:  url("../Images/barcelona.png");
+	background-image:  url("../Images/barcelona.jpg");
 	height: 650px;
 	background-position-y: -200px;
  	background-size: cover;
+ 	background-attachment:fixed;
 }
 .destinationsHeader{
 	background-color: #364757;		
 }
 .filterBar{
 	background-color: lightgrey;
+	height: 45px;
 	
 }
 .barcInsider{
 	margin-top: 30px;
 	
 }
+.insider {
+	margin-top: 32px;
+}
 .messageInsider{
 	background-color: rgba(54,180,199,0.7);
-	height: 189px;
+	height: 193px;
 	color: black;
 }
 .barcelona-background .mix{
@@ -29,7 +34,17 @@
 .barcelona-background span{
 	display: inline-block;
 	margin-top: 88px;
-	margin-left: 45px;
+	margin-left: 68px;
+	font-weight:600;
 	
+}
+.meet-insider-info img{
+	  width: 20%;
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+label{
+	margin-top: 12px;
+	margin-left: 250px;
 }
 
