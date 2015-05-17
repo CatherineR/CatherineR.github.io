@@ -78,7 +78,9 @@ label{
 .filterBar .btn:hover {
   color: #36b4c7;
 }
-
+.reviews{
+	font-size: 14px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
